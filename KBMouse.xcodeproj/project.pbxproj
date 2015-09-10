@@ -396,6 +396,7 @@
 				AA91F7011BA1C81A00249089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA91F7021BA1C81A00249089 /* Build configuration list for PBXNativeTarget "KBMouseTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +405,7 @@
 				AA91F7041BA1C81A00249089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
