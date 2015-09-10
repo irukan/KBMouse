@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA91F6EB1BA1C81A00249089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91F6EA1BA1C81A00249089 /* AppDelegate.swift */; };
+		AA91F6ED1BA1C81A00249089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91F6EC1BA1C81A00249089 /* Images.xcassets */; };
+		AA91F6F01BA1C81A00249089 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA91F6EE1BA1C81A00249089 /* MainMenu.xib */; };
+		AA91F6FC1BA1C81A00249089 /* KBMouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91F6FB1BA1C81A00249089 /* KBMouseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA91F6F61BA1C81A00249089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA91F6DD1BA1C81A00249089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA91F6E41BA1C81A00249089;
+			remoteInfo = KBMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA91F6E51BA1C81A00249089 /* KBMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA91F6E91BA1C81A00249089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA91F6EA1BA1C81A00249089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA91F6EC1BA1C81A00249089 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA91F6EF1BA1C81A00249089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA91F6F51BA1C81A00249089 /* KBMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA91F6FA1BA1C81A00249089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA91F6FB1BA1C81A00249089 /* KBMouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBMouseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA91F6E21BA1C81A00249089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91F6F21BA1C81A00249089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA91F6DC1BA1C81A00249089 = {
+			isa = PBXGroup;
+			children = (
+				AA91F6E71BA1C81A00249089 /* KBMouse */,
+				AA91F6F81BA1C81A00249089 /* KBMouseTests */,
+				AA91F6E61BA1C81A00249089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA91F6E61BA1C81A00249089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F6E51BA1C81A00249089 /* KBMouse.app */,
+				AA91F6F51BA1C81A00249089 /* KBMouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA91F6E71BA1C81A00249089 /* KBMouse */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F6EA1BA1C81A00249089 /* AppDelegate.swift */,
+				AA91F6EC1BA1C81A00249089 /* Images.xcassets */,
+				AA91F6EE1BA1C81A00249089 /* MainMenu.xib */,
+				AA91F6E81BA1C81A00249089 /* Supporting Files */,
+			);
+			path = KBMouse;
+			sourceTree = "<group>";
+		};
+		AA91F6E81BA1C81A00249089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F6E91BA1C81A00249089 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA91F6F81BA1C81A00249089 /* KBMouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F6FB1BA1C81A00249089 /* KBMouseTests.swift */,
+				AA91F6F91BA1C81A00249089 /* Supporting Files */,
+			);
+			path = KBMouseTests;
+			sourceTree = "<group>";
+		};
+		AA91F6F91BA1C81A00249089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F6FA1BA1C81A00249089 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA91F6E41BA1C81A00249089 /* KBMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA91F6FF1BA1C81A00249089 /* Build configuration list for PBXNativeTarget "KBMouse" */;
+			buildPhases = (
+				AA91F6E11BA1C81A00249089 /* Sources */,
+				AA91F6E21BA1C81A00249089 /* Frameworks */,
+				AA91F6E31BA1C81A00249089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBMouse;
+			productName = KBMouse;
+			productReference = AA91F6E51BA1C81A00249089 /* KBMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA91F6F41BA1C81A00249089 /* KBMouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA91F7021BA1C81A00249089 /* Build configuration list for PBXNativeTarget "KBMouseTests" */;
+			buildPhases = (
+				AA91F6F11BA1C81A00249089 /* Sources */,
+				AA91F6F21BA1C81A00249089 /* Frameworks */,
+				AA91F6F31BA1C81A00249089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA91F6F71BA1C81A00249089 /* PBXTargetDependency */,
+			);
+			name = KBMouseTests;
+			productName = KBMouseTests;
+			productReference = AA91F6F51BA1C81A00249089 /* KBMouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA91F6DD1BA1C81A00249089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = kayama;
+				TargetAttributes = {
+					AA91F6E41BA1C81A00249089 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AA91F6F41BA1C81A00249089 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AA91F6E41BA1C81A00249089;
+					};
+				};
+			};
+			buildConfigurationList = AA91F6E01BA1C81A00249089 /* Build configuration list for PBXProject "KBMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA91F6DC1BA1C81A00249089;
+			productRefGroup = AA91F6E61BA1C81A00249089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA91F6E41BA1C81A00249089 /* KBMouse */,
+				AA91F6F41BA1C81A00249089 /* KBMouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA91F6E31BA1C81A00249089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91F6ED1BA1C81A00249089 /* Images.xcassets in Resources */,
+				AA91F6F01BA1C81A00249089 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91F6F31BA1C81A00249089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA91F6E11BA1C81A00249089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91F6EB1BA1C81A00249089 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91F6F11BA1C81A00249089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA91F6FC1BA1C81A00249089 /* KBMouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA91F6F71BA1C81A00249089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA91F6E41BA1C81A00249089 /* KBMouse */;
+			targetProxy = AA91F6F61BA1C81A00249089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA91F6EE1BA1C81A00249089 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA91F6EF1BA1C81A00249089 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA91F6FD1BA1C81A00249089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA91F6FE1BA1C81A00249089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA91F7001BA1C81A00249089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KBMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA91F7011BA1C81A00249089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KBMouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA91F7031BA1C81A00249089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KBMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBMouse.app/Contents/MacOS/KBMouse";
+			};
+			name = Debug;
+		};
+		AA91F7041BA1C81A00249089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KBMouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBMouse.app/Contents/MacOS/KBMouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA91F6E01BA1C81A00249089 /* Build configuration list for PBXProject "KBMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91F6FD1BA1C81A00249089 /* Debug */,
+				AA91F6FE1BA1C81A00249089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA91F6FF1BA1C81A00249089 /* Build configuration list for PBXNativeTarget "KBMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91F7001BA1C81A00249089 /* Debug */,
+				AA91F7011BA1C81A00249089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA91F7021BA1C81A00249089 /* Build configuration list for PBXNativeTarget "KBMouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA91F7031BA1C81A00249089 /* Debug */,
+				AA91F7041BA1C81A00249089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA91F6DD1BA1C81A00249089 /* Project object */;
+}
