@@ -11,6 +11,7 @@
 		AA91F6ED1BA1C81A00249089 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA91F6EC1BA1C81A00249089 /* Images.xcassets */; };
 		AA91F6F01BA1C81A00249089 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA91F6EE1BA1C81A00249089 /* MainMenu.xib */; };
 		AA91F6FC1BA1C81A00249089 /* KBMouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA91F6FB1BA1C81A00249089 /* KBMouseTests.swift */; };
+		AAFAD7731BA1D7E6005D21B7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFAD7721BA1D7E6005D21B7 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		AA91F6F51BA1C81A00249089 /* KBMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA91F6FA1BA1C81A00249089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA91F6FB1BA1C81A00249089 /* KBMouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBMouseTests.swift; sourceTree = "<group>"; };
+		AAFAD7721BA1D7E6005D21B7 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				AA91F6EC1BA1C81A00249089 /* Images.xcassets */,
 				AA91F6EE1BA1C81A00249089 /* MainMenu.xib */,
 				AA91F6E81BA1C81A00249089 /* Supporting Files */,
+				AAFAD7721BA1D7E6005D21B7 /* Menu.swift */,
 			);
 			path = KBMouse;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFAD7731BA1D7E6005D21B7 /* Menu.swift in Sources */,
 				AA91F6EB1BA1C81A00249089 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
