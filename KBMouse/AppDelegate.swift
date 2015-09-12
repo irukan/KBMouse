@@ -31,12 +31,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         acquirePrivileges()
         // keyboard listeners
+        
+        // KeyDown
         NSEvent.addGlobalMonitorForEventsMatchingMask(
             NSEventMask.KeyDownMask, handler: {(event: NSEvent!) in
-        
-                KBM.keyEvent(event)
-                
+                KBM.keyDownEvent(event)
             })
+        
+        // KeyUp
+        NSEvent.addGlobalMonitorForEventsMatchingMask(
+            NSEventMask.KeyUpMask, handler: {(event: NSEvent!) in
+                KBM.keyUpEvent(event)
+        })
         
     }
     
