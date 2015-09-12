@@ -10,7 +10,7 @@ import Cocoa
 
 let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
 
-class Menu: NSStatusItem {
+class Menu: NSObject {
 
     override init() {
         let menu = NSMenu()
