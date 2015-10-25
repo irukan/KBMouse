@@ -34,10 +34,10 @@ class KBMouse: NSObject
     
     func keyDownEvent(event: NSEvent!)
     {
-        println(event.keyCode)
+        print(event.keyCode)
         let keyCode = event.keyCode
         
-        let modifierFlags = event.modifierFlags
+        _ = event.modifierFlags
         let cursorPos = event.locationInWindow
         
         switch (keyCode)
@@ -98,8 +98,8 @@ class KBMouse: NSObject
     
     func moveCursor(currentPos: CGPoint, dir:Direction, speed: CGFloat)
     {
-        let screen = NSScreen.screens()!.first as? NSScreen
-        let height = screen!.frame.size.height
+        let screen = NSScreen.screens()!.first!
+        let height = screen.frame.size.height
         
 //        switch (dir)
 //        {
@@ -134,20 +134,20 @@ class KBMouse: NSObject
         }
         
         //CGPoint(x: currentPos.x , y: height - currentPos.y - speed)
-        let mouseDrag = CGEventCreateMouseEvent(nil, CGEventType(kCGEventLeftMouseDragged), newPos, CGMouseButton(kCGMouseButtonLeft)).takeUnretainedValue()
+        let mouseDrag = CGEventCreateMouseEvent(nil, CGEventType.LeftMouseDragged, newPos, CGMouseButton.Left)
         
-        CGEventPost(CGEventTapLocation(kCGHIDEventTap), mouseDrag)
+        CGEventPost(CGEventTapLocation.CGHIDEventTap, mouseDrag)
     }
     
     func leftClick(pos: CGPoint)
     {
-        let screen = NSScreen.screens()!.first as? NSScreen
-        let height = screen!.frame.size.height
+        let screen = NSScreen.screens()!.first!
+        let height = screen.frame.size.height
         
         let clickPos = CGPoint(x: pos.x , y: height - pos.y)
         
-        let mouseDown = CGEventCreateMouseEvent(nil, CGEventType(kCGEventLeftMouseDown), clickPos, CGMouseButton(kCGMouseButtonLeft)).takeUnretainedValue()
-        CGEventPost(CGEventTapLocation(kCGHIDEventTap), mouseDown)
+        let mouseDown = CGEventCreateMouseEvent(nil, CGEventType.LeftMouseDown, clickPos, CGMouseButton.Left)
+        CGEventPost(CGEventTapLocation.CGHIDEventTap, mouseDown)
     }
     
 }

@@ -18,29 +18,29 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let accessEnabled = AXIsProcessTrustedWithOptions(
             [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true])
         
-        if accessEnabled != 1 {
-            println("You need to enable the keylogger in the System Prefrences")
+        if !accessEnabled  {
+            print("You need to enable the keylogger in the System Prefrences")
         }
-        return accessEnabled == 1
+        return accessEnabled
     }
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
     
-       let menu = Menu()
+       _ = Menu()
         
         acquirePrivileges()
         // keyboard listeners
         
         // KeyDown
         NSEvent.addGlobalMonitorForEventsMatchingMask(
-            NSEventMask.KeyDownMask, handler: {(event: NSEvent!) in
+            NSEventMask.KeyDownMask, handler: {(event: NSEvent) in
                 KBM.keyDownEvent(event)
             })
         
         // KeyUp
         NSEvent.addGlobalMonitorForEventsMatchingMask(
-            NSEventMask.KeyUpMask, handler: {(event: NSEvent!) in
+            NSEventMask.KeyUpMask, handler: {(event: NSEvent) in
                 KBM.keyUpEvent(event)
         })
         
